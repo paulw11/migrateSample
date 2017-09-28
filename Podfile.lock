@@ -1,0 +1,21 @@
+PODS:
+  - Seam3 (1.3.1)
+
+DEPENDENCIES:
+  - Seam3 (from `https://github.com/paulw11/seam3.git`)
+
+EXTERNAL SOURCES:
+  Seam3:
+    :git: https://github.com/paulw11/seam3.git
+
+CHECKOUT OPTIONS:
+  Seam3:
+    :commit: ae4b4d1900451a796a16586bd1d53d0d84bc636c
+    :git: https://github.com/paulw11/seam3.git
+
+SPEC CHECKSUMS:
+  Seam3: 6df2ce92a358debeb8e4905998a6c14c8b973f84
+
+PODFILE CHECKSUM: 73ce43d2379d5750cb1305d357b26807db22c181
+
+COCOAPODS: 1.3.1

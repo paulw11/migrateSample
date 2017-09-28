@@ -1,0 +1,6 @@
+framework module Pods_migrateSample {
+  umbrella header "Pods-migrateSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

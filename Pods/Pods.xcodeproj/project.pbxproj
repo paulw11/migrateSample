@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193D996C676E19AB1C3C71C8CC4188AA /* Seam3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 816357DABE78F0CCEFA2FA92B15EF069 /* Seam3-dummy.m */; };
+		1A74D7222E049D458DBC46C421483523 /* Pods-migrateSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A766B7BB95C53DAAA051C0E4A72861F /* Pods-migrateSample-dummy.m */; };
+		3A039AE734710669443A1F927AE9C704 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3B7A2ED7869E0C603E4AAFE00BBAA5EF /* SMServerStoreSetupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8535009916DBC56E08FDD643B1550 /* SMServerStoreSetupOperation.swift */; };
+		45559B09992D0C72ECF6C10B07884135 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5733F8C927468E69D4BD9728B1D58637 /* CKRecordZoneID+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701C06E607FE989EE7267CA2EEA01A49 /* CKRecordZoneID+Helpers.swift */; };
+		646ADC63980F812AF89DFB2396E431AD /* NSManagedObjectContext+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B8C588B3BFEE71DA3A72B48A85072A /* NSManagedObjectContext+Helpers.swift */; };
+		6E09415564FBF21B57F2BE1C38B149B7 /* SMStoreChangeSetHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF2A79F41E40ECBB0DEBDD34C2EF34 /* SMStoreChangeSetHandler.swift */; };
+		76A3EDF50E074B544B015C5753BD7491 /* SMStoreSyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577BD6F51FE031255C62FB31DE7172F2 /* SMStoreSyncOperation.swift */; };
+		84CE0D641D84E9F38926FB22C814F20A /* CKRecord+NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDC746A99099F8A2202646F0DA2C0B2 /* CKRecord+NSManagedObject.swift */; };
+		9B8C64D37446EBD3B20125E21D929F4D /* Pods-migrateSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B170D81FF79192600EBA8074FD62F8B /* Pods-migrateSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61EA43EB1BBA16B5C0E2919B78778CF /* NSEntityDescription+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7568A7B79881B7883B3E504F67AA66 /* NSEntityDescription+Helpers.swift */; };
+		A685279D8ACA424FD692C0A978996520 /* NSManagedObject+CKRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326EED3C811B9E6963602F95C9A245B5 /* NSManagedObject+CKRecord.swift */; };
+		BE2E2B256F1F445896A7318029602BF9 /* SMServerTokenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E864152C82401C6E6425D0D4F47477B2 /* SMServerTokenHandler.swift */; };
+		E9FEA147B2E8242C777F50603A26A1F3 /* Seam3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D75DA050789EB43E787D94A38C25C879 /* Seam3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB0D8D6D9BCA353CDB4860267C6B55CD /* CKRecordZone+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D622DDF6C500C10669A27E556FC68B /* CKRecordZone+Helpers.swift */; };
+		FDCB3909DC5D850147EC64489DFEE9A6 /* SMStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191933AD05574194E6E60CA668D8BED /* SMStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		150B3C3364F14CA05CB84305F5667F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049EBA98923CE7AA5DFDBE1DCC635A1B;
+			remoteInfo = Seam3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0191933AD05574194E6E60CA668D8BED /* SMStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMStore.swift; path = Sources/Classes/SMStore.swift; sourceTree = "<group>"; };
+		01B8C588B3BFEE71DA3A72B48A85072A /* NSManagedObjectContext+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSManagedObjectContext+Helpers.swift"; path = "Sources/Classes/NSManagedObjectContext+Helpers.swift"; sourceTree = "<group>"; };
+		05D622DDF6C500C10669A27E556FC68B /* CKRecordZone+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CKRecordZone+Helpers.swift"; path = "Sources/Classes/CKRecordZone+Helpers.swift"; sourceTree = "<group>"; };
+		0FA9B1F3C8DF1BF89F8889AD647F67E0 /* Seam3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Seam3.xcconfig; sourceTree = "<group>"; };
+		1B170D81FF79192600EBA8074FD62F8B /* Pods-migrateSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-migrateSample-umbrella.h"; sourceTree = "<group>"; };
+		1C7CA355EC43FD06043B9737930F952A /* Pods-migrateSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-migrateSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		218741DAC389DD539DB6F13DAE5B01FA /* Seam3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Seam3.framework; path = Seam3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		326EED3C811B9E6963602F95C9A245B5 /* NSManagedObject+CKRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSManagedObject+CKRecord.swift"; path = "Sources/Classes/NSManagedObject+CKRecord.swift"; sourceTree = "<group>"; };
+		32EF2A79F41E40ECBB0DEBDD34C2EF34 /* SMStoreChangeSetHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMStoreChangeSetHandler.swift; path = Sources/Classes/SMStoreChangeSetHandler.swift; sourceTree = "<group>"; };
+		4A766B7BB95C53DAAA051C0E4A72861F /* Pods-migrateSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-migrateSample-dummy.m"; sourceTree = "<group>"; };
+		50BA490A75CDFF812EF5C459E232AC91 /* Pods-migrateSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-migrateSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		577BD6F51FE031255C62FB31DE7172F2 /* SMStoreSyncOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMStoreSyncOperation.swift; path = Sources/Classes/SMStoreSyncOperation.swift; sourceTree = "<group>"; };
+		5ED4425067F1C906179FFC25F2F0F597 /* Pods-migrateSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-migrateSample.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67C405304E42CD7DAF3412A988CB98FB /* Seam3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Seam3-prefix.pch"; sourceTree = "<group>"; };
+		696BFA0563B75F1EDF1BF6E2EFE783AD /* Pods_migrateSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_migrateSample.framework; path = "Pods-migrateSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		701C06E607FE989EE7267CA2EEA01A49 /* CKRecordZoneID+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CKRecordZoneID+Helpers.swift"; path = "Sources/Classes/CKRecordZoneID+Helpers.swift"; sourceTree = "<group>"; };
+		7FEBC09DFC3EDF880E8649C26A125C9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816357DABE78F0CCEFA2FA92B15EF069 /* Seam3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Seam3-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A91BA8214C26F9370DDE6F59DF06261F /* Seam3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Seam3.modulemap; sourceTree = "<group>"; };
+		ACC8535009916DBC56E08FDD643B1550 /* SMServerStoreSetupOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMServerStoreSetupOperation.swift; path = Sources/Classes/SMServerStoreSetupOperation.swift; sourceTree = "<group>"; };
+		BB7568A7B79881B7883B3E504F67AA66 /* NSEntityDescription+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSEntityDescription+Helpers.swift"; path = "Sources/Classes/NSEntityDescription+Helpers.swift"; sourceTree = "<group>"; };
+		C7B418ADC7A3E71CAB63640B9C63DBB0 /* Pods-migrateSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-migrateSample-resources.sh"; sourceTree = "<group>"; };
+		D639404445B76AEE7B28D9DFE7C695E9 /* Pods-migrateSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-migrateSample.debug.xcconfig"; sourceTree = "<group>"; };
+		D75DA050789EB43E787D94A38C25C879 /* Seam3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Seam3-umbrella.h"; sourceTree = "<group>"; };
+		DBDC746A99099F8A2202646F0DA2C0B2 /* CKRecord+NSManagedObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CKRecord+NSManagedObject.swift"; path = "Sources/Classes/CKRecord+NSManagedObject.swift"; sourceTree = "<group>"; };
+		E864152C82401C6E6425D0D4F47477B2 /* SMServerTokenHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMServerTokenHandler.swift; path = Sources/Classes/SMServerTokenHandler.swift; sourceTree = "<group>"; };
+		F11694F33CDE37FFF4E8DF02029B61E3 /* Pods-migrateSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-migrateSample.release.xcconfig"; sourceTree = "<group>"; };
+		F1755EE5118E7626406271DB643B8188 /* Pods-migrateSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-migrateSample-frameworks.sh"; sourceTree = "<group>"; };
+		FA909A70EC21210E7E10071BFFB174EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74A194FB09412C1FD128BAB99205B11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45559B09992D0C72ECF6C10B07884135 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5176F915A8597D0CA12C2BD5EF6A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A039AE734710669443A1F927AE9C704 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6487E7936E84248387992D634535E7 /* Pods-migrateSample */ = {
+			isa = PBXGroup;
+			children = (
+				7FEBC09DFC3EDF880E8649C26A125C9D /* Info.plist */,
+				5ED4425067F1C906179FFC25F2F0F597 /* Pods-migrateSample.modulemap */,
+				1C7CA355EC43FD06043B9737930F952A /* Pods-migrateSample-acknowledgements.markdown */,
+				50BA490A75CDFF812EF5C459E232AC91 /* Pods-migrateSample-acknowledgements.plist */,
+				4A766B7BB95C53DAAA051C0E4A72861F /* Pods-migrateSample-dummy.m */,
+				F1755EE5118E7626406271DB643B8188 /* Pods-migrateSample-frameworks.sh */,
+				C7B418ADC7A3E71CAB63640B9C63DBB0 /* Pods-migrateSample-resources.sh */,
+				1B170D81FF79192600EBA8074FD62F8B /* Pods-migrateSample-umbrella.h */,
+				D639404445B76AEE7B28D9DFE7C695E9 /* Pods-migrateSample.debug.xcconfig */,
+				F11694F33CDE37FFF4E8DF02029B61E3 /* Pods-migrateSample.release.xcconfig */,
+			);
+			name = "Pods-migrateSample";
+			path = "Target Support Files/Pods-migrateSample";
+			sourceTree = "<group>";
+		};
+		2A9162AFA57FC984ABB422D4AD884229 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA909A70EC21210E7E10071BFFB174EF /* Info.plist */,
+				A91BA8214C26F9370DDE6F59DF06261F /* Seam3.modulemap */,
+				0FA9B1F3C8DF1BF89F8889AD647F67E0 /* Seam3.xcconfig */,
+				816357DABE78F0CCEFA2FA92B15EF069 /* Seam3-dummy.m */,
+				67C405304E42CD7DAF3412A988CB98FB /* Seam3-prefix.pch */,
+				D75DA050789EB43E787D94A38C25C879 /* Seam3-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Seam3";
+			sourceTree = "<group>";
+		};
+		32224DCE6A1D2146EAF7A1C890C34EEC /* Seam3 */ = {
+			isa = PBXGroup;
+			children = (
+				DBDC746A99099F8A2202646F0DA2C0B2 /* CKRecord+NSManagedObject.swift */,
+				05D622DDF6C500C10669A27E556FC68B /* CKRecordZone+Helpers.swift */,
+				701C06E607FE989EE7267CA2EEA01A49 /* CKRecordZoneID+Helpers.swift */,
+				BB7568A7B79881B7883B3E504F67AA66 /* NSEntityDescription+Helpers.swift */,
+				326EED3C811B9E6963602F95C9A245B5 /* NSManagedObject+CKRecord.swift */,
+				01B8C588B3BFEE71DA3A72B48A85072A /* NSManagedObjectContext+Helpers.swift */,
+				ACC8535009916DBC56E08FDD643B1550 /* SMServerStoreSetupOperation.swift */,
+				E864152C82401C6E6425D0D4F47477B2 /* SMServerTokenHandler.swift */,
+				0191933AD05574194E6E60CA668D8BED /* SMStore.swift */,
+				32EF2A79F41E40ECBB0DEBDD34C2EF34 /* SMStoreChangeSetHandler.swift */,
+				577BD6F51FE031255C62FB31DE7172F2 /* SMStoreSyncOperation.swift */,
+				2A9162AFA57FC984ABB422D4AD884229 /* Support Files */,
+			);
+			name = Seam3;
+			path = Seam3;
+			sourceTree = "<group>";
+		};
+		56F36CBA49588A55E5356633089F2572 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32224DCE6A1D2146EAF7A1C890C34EEC /* Seam3 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				56F36CBA49588A55E5356633089F2572 /* Pods */,
+				FCF5CF7FF2F474F58109FD3CC82CC181 /* Products */,
+				C1CC673CE984348A49B256D616A9ED9B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1CC673CE984348A49B256D616A9ED9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A6487E7936E84248387992D634535E7 /* Pods-migrateSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FCF5CF7FF2F474F58109FD3CC82CC181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696BFA0563B75F1EDF1BF6E2EFE783AD /* Pods_migrateSample.framework */,
+				218741DAC389DD539DB6F13DAE5B01FA /* Seam3.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		371DE8075B4F2C2D29D79F01BC1D46E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FEA147B2E8242C777F50603A26A1F3 /* Seam3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A7EDD6DEDDA1C4B4D8F78DB2A854FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8C64D37446EBD3B20125E21D929F4D /* Pods-migrateSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		049EBA98923CE7AA5DFDBE1DCC635A1B /* Seam3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B90D612EF421490C9B4A295DCB3B649 /* Build configuration list for PBXNativeTarget "Seam3" */;
+			buildPhases = (
+				02A06F5E058570DCEF3B70E89E2684C7 /* Sources */,
+				74A194FB09412C1FD128BAB99205B11C /* Frameworks */,
+				371DE8075B4F2C2D29D79F01BC1D46E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seam3;
+			productName = Seam3;
+			productReference = 218741DAC389DD539DB6F13DAE5B01FA /* Seam3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C2106DF0B8F5594705DA08A7ED6AC07 /* Pods-migrateSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6590333EB5C3E0AE3A0C62EC83384AC5 /* Build configuration list for PBXNativeTarget "Pods-migrateSample" */;
+			buildPhases = (
+				BF935339CFBE34CE867EB340D7E30BE0 /* Sources */,
+				FA5176F915A8597D0CA12C2BD5EF6A8B /* Frameworks */,
+				89A7EDD6DEDDA1C4B4D8F78DB2A854FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409AEBCEF0F046A8AB426644921D2ADD /* PBXTargetDependency */,
+			);
+			name = "Pods-migrateSample";
+			productName = "Pods-migrateSample";
+			productReference = 696BFA0563B75F1EDF1BF6E2EFE783AD /* Pods_migrateSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FCF5CF7FF2F474F58109FD3CC82CC181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C2106DF0B8F5594705DA08A7ED6AC07 /* Pods-migrateSample */,
+				049EBA98923CE7AA5DFDBE1DCC635A1B /* Seam3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02A06F5E058570DCEF3B70E89E2684C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CE0D641D84E9F38926FB22C814F20A /* CKRecord+NSManagedObject.swift in Sources */,
+				FB0D8D6D9BCA353CDB4860267C6B55CD /* CKRecordZone+Helpers.swift in Sources */,
+				5733F8C927468E69D4BD9728B1D58637 /* CKRecordZoneID+Helpers.swift in Sources */,
+				A61EA43EB1BBA16B5C0E2919B78778CF /* NSEntityDescription+Helpers.swift in Sources */,
+				A685279D8ACA424FD692C0A978996520 /* NSManagedObject+CKRecord.swift in Sources */,
+				646ADC63980F812AF89DFB2396E431AD /* NSManagedObjectContext+Helpers.swift in Sources */,
+				193D996C676E19AB1C3C71C8CC4188AA /* Seam3-dummy.m in Sources */,
+				3B7A2ED7869E0C603E4AAFE00BBAA5EF /* SMServerStoreSetupOperation.swift in Sources */,
+				BE2E2B256F1F445896A7318029602BF9 /* SMServerTokenHandler.swift in Sources */,
+				FDCB3909DC5D850147EC64489DFEE9A6 /* SMStore.swift in Sources */,
+				6E09415564FBF21B57F2BE1C38B149B7 /* SMStoreChangeSetHandler.swift in Sources */,
+				76A3EDF50E074B544B015C5753BD7491 /* SMStoreSyncOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF935339CFBE34CE867EB340D7E30BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A74D7222E049D458DBC46C421483523 /* Pods-migrateSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		409AEBCEF0F046A8AB426644921D2ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Seam3;
+			target = 049EBA98923CE7AA5DFDBE1DCC635A1B /* Seam3 */;
+			targetProxy = 150B3C3364F14CA05CB84305F5667F66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90ED0C14DB74FEC13048B66A3413EEE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA9B1F3C8DF1BF89F8889AD647F67E0 /* Seam3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Seam3/Seam3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Seam3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Seam3/Seam3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Seam3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CC5F9DA0F2EBA4E9F73AB64301AF716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D639404445B76AEE7B28D9DFE7C695E9 /* Pods-migrateSample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-migrateSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-migrateSample/Pods-migrateSample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_migrateSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D4D0627B9CAB3DF45F3DEB8C557C619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA9B1F3C8DF1BF89F8889AD647F67E0 /* Seam3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Seam3/Seam3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Seam3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Seam3/Seam3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Seam3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E6778C51CE4BF75899D588933E38BBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F11694F33CDE37FFF4E8DF02029B61E3 /* Pods-migrateSample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-migrateSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-migrateSample/Pods-migrateSample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_migrateSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6590333EB5C3E0AE3A0C62EC83384AC5 /* Build configuration list for PBXNativeTarget "Pods-migrateSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC5F9DA0F2EBA4E9F73AB64301AF716 /* Debug */,
+				E6778C51CE4BF75899D588933E38BBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B90D612EF421490C9B4A295DCB3B649 /* Build configuration list for PBXNativeTarget "Seam3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D4D0627B9CAB3DF45F3DEB8C557C619 /* Debug */,
+				90ED0C14DB74FEC13048B66A3413EEE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
