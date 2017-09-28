@@ -15,6 +15,7 @@
 		BB2B16C01F7CA26E009AF40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2B16BF1F7CA26E009AF40D /* Assets.xcassets */; };
 		BB2B16C31F7CA26E009AF40D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2B16C11F7CA26E009AF40D /* LaunchScreen.storyboard */; };
 		BB2B16CE1F7CA26E009AF40D /* migrateSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2B16CD1F7CA26E009AF40D /* migrateSampleTests.swift */; };
+		BB2B16DA1F7CA4E7009AF40D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2B16D91F7CA4E7009AF40D /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		BB2B16C91F7CA26E009AF40D /* migrateSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = migrateSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2B16CD1F7CA26E009AF40D /* migrateSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = migrateSampleTests.swift; sourceTree = "<group>"; };
 		BB2B16CF1F7CA26E009AF40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2B16D81F7CA4DC009AF40D /* migrateSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = migrateSample.entitlements; sourceTree = "<group>"; };
+		BB2B16D91F7CA4E7009AF40D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		C5A437A953276C1FCF9329CA /* Pods-migrateSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-migrateSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-migrateSample/Pods-migrateSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E3B1818D1185EAFBF5190F5 /* Pods_migrateSample.framework in Frameworks */,
+				BB2B16DA1F7CA4E7009AF40D /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +99,7 @@
 		BB2B16B41F7CA26E009AF40D /* migrateSample */ = {
 			isa = PBXGroup;
 			children = (
+				BB2B16D81F7CA4DC009AF40D /* migrateSample.entitlements */,
 				BB2B16B51F7CA26E009AF40D /* AppDelegate.swift */,
 				BB2B16B71F7CA26E009AF40D /* ViewController.swift */,
 				BB2B16B91F7CA26E009AF40D /* Main.storyboard */,
@@ -118,6 +123,7 @@
 		E23FC0C79863261341F0D13F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB2B16D91F7CA4E7009AF40D /* CloudKit.framework */,
 				BA6EB9CD2952D5AB523BB854 /* Pods_migrateSample.framework */,
 			);
 			name = Frameworks;
@@ -177,6 +183,14 @@
 					BB2B16B11F7CA26E009AF40D = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					BB2B16C81F7CA26E009AF40D = {
 						CreatedOnToolsVersion = 9.0;
@@ -439,6 +453,7 @@
 			baseConfigurationReference = C5A437A953276C1FCF9329CA /* Pods-migrateSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = migrateSample/migrateSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPP93EJ3U2;
 				INFOPLIST_FILE = migrateSample/Info.plist;
@@ -455,6 +470,7 @@
 			baseConfigurationReference = 9357B4868833F591E71A79FC /* Pods-migrateSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = migrateSample/migrateSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPP93EJ3U2;
 				INFOPLIST_FILE = migrateSample/Info.plist;
